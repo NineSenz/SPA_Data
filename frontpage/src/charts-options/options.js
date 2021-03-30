@@ -1,7 +1,7 @@
 module.exports = {
     bar: {
         chart: {
-            type:'column'//指定图表的类型，默认是折线图（line）
+            type:'spline'//指定图表的类型，默认是折线图（line）
         },
         credits: {
             enabled:false
@@ -20,7 +20,7 @@ module.exports = {
             },
         },
         plotOptions: {
-            column: {
+            spline: {
                 colorByPoint:true
             },
         },
