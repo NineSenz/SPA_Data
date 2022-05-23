@@ -118,9 +118,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'spa',
-        'USER': 'root',
-        'PASSWORD': 'B1E9B6FFDB00B463676141561A0351C4',
-        'HOST': '127.0.0.1',
+        'USER': 'spa',
+        'PASSWORD': 'ixCpMRH8BX3BMAdn',
+        'HOST': '42.192.87.34',
     }
 }
 
