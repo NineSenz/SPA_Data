@@ -39,10 +39,11 @@ export default {
           .then((response) => {
             var res = JSON.parse(response.bodyText)
             if (res.error_num === 0) {
-              this.showBooks()
+              this.showPerson()
             } else {
               this.$message.error('新增用户失败，请重试')
               console.log(res['msg'])
+              this.showPerson()
             }
           })
     },
